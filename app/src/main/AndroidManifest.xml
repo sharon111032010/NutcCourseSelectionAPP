@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NUTCCourse">
+
+        <activity
+            android:name=".ui.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.NUTCCourse.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ui.MainActivity" />
+        <activity
+            android:name=".ui.SearchActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".ui.FilterActivity" />
+        <activity android:name=".ui.CourseDetailActivity" />
+        <activity android:name=".ui.DepartmentListActivity" />
+        <activity android:name=".ui.ClassListActivity" />
+        <activity android:name=".ui.ClassCoursesActivity" />
+        <activity android:name=".ui.GeneralEdActivity" />
+        <activity android:name=".ui.ScheduleActivity" />
+        <activity android:name=".ui.ConflictActivity" />
+        <activity android:name=".ui.SelectedCoursesActivity" />
+        <activity android:name=".ui.FavoritesActivity" />
+        <activity android:name=".ui.SettingsActivity" />
+        <activity android:name=".ui.AboutActivity" />
+    </application>
+
+</manifest>

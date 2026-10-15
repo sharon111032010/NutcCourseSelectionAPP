@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NUTC 選課助手</string>
+    <string name="app_tagline">115-1 課程搜尋 · 排課 · 衝堂檢查</string>
+    <string name="loading_data">正在載入課程資料…</string>
+
+    <string name="title_home">NUTC 智慧選課助手</string>
+    <string name="title_search">課程搜尋</string>
+    <string name="title_filter">進階篩選</string>
+    <string name="title_detail">課程詳情</string>
+    <string name="title_departments">依系所瀏覽</string>
+    <string name="title_classes">選擇班級</string>
+    <string name="title_class_courses">班級課程</string>
+    <string name="title_general_ed">通識／體育／語言</string>
+    <string name="title_schedule">我的課表</string>
+    <string name="title_conflicts">衝堂檢查</string>
+    <string name="title_selected">已選課程與學分</string>
+    <string name="title_favorites">我的收藏</string>
+    <string name="title_settings">設定</string>
+    <string name="title_about">關於與資料說明</string>
+
+    <string name="home_search_bar">🔍  搜尋課名、教師、班級…</string>
+    <string name="home_search">課程搜尋</string>
+    <string name="home_search_sub">課名、教師、代碼</string>
+    <string name="home_filter">進階篩選</string>
+    <string name="home_filter_sub">星期、節次、學制</string>
+    <string name="home_browse">依系所瀏覽</string>
+    <string name="home_browse_sub">系所 → 班級 → 課程</string>
+    <string name="home_ge">通識／體育／語言</string>
+    <string name="home_ge_sub">領域、運動項目</string>
+    <string name="home_schedule">我的課表</string>
+    <string name="home_schedule_sub">週課表格子</string>
+    <string name="home_selected">已選與學分</string>
+    <string name="home_selected_sub">學分統計</string>
+    <string name="home_conflicts">衝堂檢查</string>
+    <string name="home_conflicts_sub">重疊節次一覽</string>
+    <string name="home_favorites">我的收藏</string>
+    <string name="home_favorites_sub">先存著再決定</string>
+    <string name="home_settings">設定</string>
+    <string name="home_settings_sub">清除資料、顯示</string>
+    <string name="home_about">關於</string>
+    <string name="home_about_sub">資料來源、限制</string>
+    <string name="home_stat_courses">門課程</string>
+    <string name="home_stat_mine">已選課程</string>
+    <string name="home_stat_credits">學分</string>
+    <string name="home_stat_conflicts">衝堂</string>
+
+    <string name="search_hint">輸入課名、教師、班級、課程代碼或教室</string>
+    <string name="search_filter_btn">篩選</string>
+    <string name="search_clear_filter">清除條件</string>
+    <string name="search_empty_prompt">輸入關鍵字，或點「篩選」設定星期、節次等條件。\n為了效能，沒有任何條件時不會列出全部 3,000 多門課。</string>
+    <string name="search_no_result">找不到符合條件的課程，試著放寬條件。</string>
+
+    <string name="filter_days">星期</string>
+    <string name="filter_periods">節次</string>
+    <string name="filter_mode_full">完整符合（課程所有節次都在勾選範圍內）</string>
+    <string name="filter_mode_any">有碰到即可（任一節在勾選範圍內）</string>
+    <string name="filter_type">修別</string>
+    <string name="filter_type_all">全部</string>
+    <string name="filter_type_req">必修</string>
+    <string name="filter_type_ele">選修</string>
+    <string name="filter_dept">系所</string>
+    <string name="filter_track">學制</string>
+    <string name="filter_grade">年級</string>
+    <string name="filter_category">通識領域</string>
+    <string name="filter_open_other">只看開放外系選修</string>
+    <string name="filter_english">只看全英語課程</string>
+    <string name="filter_hide_unscheduled">隱藏無固定上課時間的課</string>
+    <string name="filter_hide_conflict">隱藏會跟我的課表衝堂的課</string>
+    <string name="filter_reset">清除全部</string>
+    <string name="filter_apply">套用</string>
+    <string name="filter_track_note">學制／年級是依開課班級名稱推算的標示，只用於篩選，不代表選課資格。</string>
+
+    <string name="detail_add">加入課表</string>
+    <string name="detail_remove">從課表移除</string>
+    <string name="detail_fav">收藏</string>
+    <string name="detail_unfav">取消收藏</string>
+    <string name="detail_open_web">開啟學校課程頁面</string>
+    <string name="detail_same_class">查看同班其他課程</string>
+    <string name="detail_sessions">上課時段</string>
+    <string name="detail_info">課程資訊</string>
+    <string name="detail_raw_time">原始時間字串</string>
+
+    <string name="schedule_unscheduled">無固定上課時間的課程</string>
+    <string name="schedule_empty">課表還是空的，從課程搜尋或詳情頁把課加進來。</string>
+    <string name="menu_conflicts">衝堂檢查</string>
+    <string name="menu_selected">已選清單</string>
+
+    <string name="conflict_none">目前課表沒有衝堂 👍</string>
+
+    <string name="selected_empty">還沒有加入任何課程。</string>
+    <string name="fav_empty">還沒有收藏任何課程。在課程詳情頁點「收藏」。</string>
+
+    <string name="settings_weekend">課表顯示週六、週日</string>
+    <string name="settings_weekend_sub">關閉時，若課表有週末課程仍會自動顯示</string>
+    <string name="settings_default_any">節次篩選預設「有碰到即可」</string>
+    <string name="settings_default_any_sub">預設是「完整符合」</string>
+    <string name="settings_clear_schedule">清空我的課表</string>
+    <string name="settings_clear_favorites">清空收藏</string>
+    <string name="settings_reset_filter">重設篩選條件</string>
+    <string name="settings_storage_note">課表、收藏、篩選條件只存在這支手機上，解除安裝或清除 App 資料就會不見。</string>
+
+    <string name="ok">確定</string>
+    <string name="cancel">取消</string>
+    <string name="remove">移除</string>
+    <string name="about_intro">國立臺中科技大學公開課程資料的第三方搜尋與排課輔助工具，不是學校正式選課系統。\n\n這個 App 不會連動學校選課流程、不會送出任何選課動作，也不需要登入。課程資料是 115-1 學期的爬取快照，直接打包在 App 裡，離線也能用。\n\n最核心的功能是「完整符合」的節次篩選：勾選星期一第 1～2 節，只會列出完整落在這個時段內的課，而不是只要碰到就列出。</string>
+    <string name="about_limits">• 資料是固定快照，學校後續的加開、停開、教師異動不會自動更新，正式資訊請以學校網站為準。\n• 學制／年級是由開課班級名稱推算，只用於篩選與標示，不判斷你能不能修這門課。\n• 通識／體育／語言的虛擬班級不顯示學制／年級。\n• 課表與收藏只存在這支手機，換手機或清除 App 資料就會不見。\n• 少數課程的時間格式特殊（例如「星期一中午時間」），無法放進課表格子，會列在課表下方。</string>
+</resources>
